@@ -1,0 +1,66 @@
+
+/* the styles for the form */
+fieldset.tickets-signup {
+    margin-bottom: .5em;
+    padding: .5em 1em;
+}
+legend.tickets-signup {
+    font-weight: bold;
+    font-size: 85%;
+    padding-bottom: .5em;
+}
+label.tickets-signup, input.tickets-signup, select.tickets-signup {
+	font-size: 90%;
+}
+label.tickets-signup {
+    float: left;
+    width: 10em;
+    text-align: right;
+}
+input.tickets-signup, select.tickets-signup {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+}
+input:required, input[required] input:invalid {
+	border: 2px solid #800000;
+}
+input:valid {
+	border: 1px solid black;
+}
+input:invalid {
+	box-shadow: none;
+}
+br.tickets-signup {
+    clear: both;
+}
+#radio label {
+	float: none;
+}
+#radio input {
+	width: auto;
+	margin-left: 3em;
+}
+#exp_month {
+	width: 7em;
+}
+#exp_year {
+	width: 5em;
+}
+#buttons input {
+	width: 10em;
+}
+
+
+/* the styles for the section */
+section.tickets-signup {
+	width: 525px;
+	float: right;
+	padding: 0 20px 20px 20px;
+}
+section.tickets-signup h1 {
+	font-size: 150%;
+	color: #800000;
+	padding: .5em 0 .25em 0;
+	margin: 0;
+}
